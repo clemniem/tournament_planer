@@ -6,7 +6,9 @@ to start
 - have sbt installed
 - have docker installed
 
-    git clone https://github.com/yannick-cw/tournament_planer.git
-    ./startHat.sh
-    
-go to localhost:9090
+```bash
+git clone https://github.com/yannick-cw/tournament_planer.git
+./startHat.sh
+```
+
+- go to localhost:9090
