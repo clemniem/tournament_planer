@@ -61,23 +61,19 @@
 [0m[[0minfo[0m] [0m ---> Using cache[0m
 [0m[[0minfo[0m] [0m ---> 7e6bc8f28801[0m
 [0m[[0minfo[0m] [0mStep 3 : ADD opt /opt[0m
-[0m[[0minfo[0m] [0m ---> f64389615962[0m
-[0m[[0minfo[0m] [0mRemoving intermediate container c72b123012b6[0m
+[0m[[0minfo[0m] [0m ---> Using cache[0m
+[0m[[0minfo[0m] [0m ---> 340c8af01de1[0m
 [0m[[0minfo[0m] [0mStep 4 : RUN chown -R daemon:daemon .[0m
-[0m[[0minfo[0m] [0m ---> Running in 0c6caeec2b2b[0m
-[0m[[0minfo[0m] [0m ---> 695665584f2f[0m
-[0m[[0minfo[0m] [0mRemoving intermediate container 0c6caeec2b2b[0m
+[0m[[0minfo[0m] [0m ---> Using cache[0m
+[0m[[0minfo[0m] [0m ---> 9856c4da48ef[0m
 [0m[[0minfo[0m] [0mStep 5 : USER daemon[0m
-[0m[[0minfo[0m] [0m ---> Running in ac71ec5f39cc[0m
-[0m[[0minfo[0m] [0m ---> 310dbfae6e41[0m
-[0m[[0minfo[0m] [0mRemoving intermediate container ac71ec5f39cc[0m
+[0m[[0minfo[0m] [0m ---> Using cache[0m
+[0m[[0minfo[0m] [0m ---> 0c0312e76705[0m
 [0m[[0minfo[0m] [0mStep 6 : ENTRYPOINT bin/hat-planer[0m
-[0m[[0minfo[0m] [0m ---> Running in 4fc6e12feaa1[0m
-[0m[[0minfo[0m] [0m ---> 1e96fdfea1c2[0m
-[0m[[0minfo[0m] [0mRemoving intermediate container 4fc6e12feaa1[0m
+[0m[[0minfo[0m] [0m ---> Using cache[0m
+[0m[[0minfo[0m] [0m ---> 12b0fb135dbc[0m
 [0m[[0minfo[0m] [0mStep 7 : CMD [0m
-[0m[[0minfo[0m] [0m ---> Running in 9dc40b9b967c[0m
-[0m[[0minfo[0m] [0m ---> 2f9332d8bd10[0m
-[0m[[0minfo[0m] [0mRemoving intermediate container 9dc40b9b967c[0m
-[0m[[0minfo[0m] [0mSuccessfully built 2f9332d8bd10[0m
+[0m[[0minfo[0m] [0m ---> Using cache[0m
+[0m[[0minfo[0m] [0m ---> 6b6b95743bae[0m
+[0m[[0minfo[0m] [0mSuccessfully built 6b6b95743bae[0m
 [0m[[0minfo[0m] [0mBuilt image hat-planer:0.1-SNAPSHOT[0m
