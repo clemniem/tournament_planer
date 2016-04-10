@@ -1,0 +1,10 @@
+Please put in all the teams formatted in this way [Team <Name> (<overall strength>)], please leave this first line as well
+Team Tiefseetaucher (34)
+Team Yrr (35)
+Team M.U.C (55)
+Team Zamperl (50)
+Team Wolpertinger (45)
+Team 2Mucl (29)
+Team ChicYrria (29)
+Team Frisbee Buam (33)
+

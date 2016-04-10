@@ -1,0 +1,15 @@
+hatplay:
+ image: hat-play:0.1-SNAPSHOT
+ ports:
+  - "9000:9000"
+ links:
+  - teamplaner
+  - tournamentplaner
+teamplaner:
+ image: hat-planer:0.1-SNAPSHOT
+ ports:
+  - "4321:4321"
+tournamentplaner:
+ image: tournament-scheduler:1.0
+ ports:
+   - "4444:4444"

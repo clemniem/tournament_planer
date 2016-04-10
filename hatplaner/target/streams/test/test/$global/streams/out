@@ -1,0 +1,32 @@
+[0m[[0mdebug[0m] [0mRunning TaskDef(Import.ImportOptimizerTest, org.scalatest.tools.Framework$$anon$1@17680d39, false, [SuiteSelector])[0m
+[0m[[0mdebug[0m] [0mRunning TaskDef(TeamBuilding.GenderSeparatorTest, org.scalatest.tools.Framework$$anon$1@17680d39, false, [SuiteSelector])[0m
+[0m[[0mdebug[0m] [0mRunning TaskDef(TeamBuilding.NaiveSubTeamBuilderTest, org.scalatest.tools.Framework$$anon$1@17680d39, false, [SuiteSelector])[0m
+[0m[[0mdebug[0m] [0mRunning TaskDef(Import.PlayerMeanFillerTest, org.scalatest.tools.Framework$$anon$1@17680d39, false, [SuiteSelector])[0m
+[0m[[0mdebug[0m] [0mRunning TaskDef(TeamBuilding.TeamEvaluatorTest, org.scalatest.tools.Framework$$anon$1@17680d39, false, [SuiteSelector])[0m
+[0m[[0mdebug[0m] [0mRunning TaskDef(Import.ImportScenarioTest, org.scalatest.tools.Framework$$anon$1@17680d39, false, [SuiteSelector])[0m
+[0m[[0mdebug[0m] [0mRunning TaskDef(master.UeberActorTest, org.scalatest.tools.Framework$$anon$1@17680d39, false, [SuiteSelector])[0m
+[0m[[0mdebug[0m] [0mRunning TaskDef(Export.CsvFileWriterTest, org.scalatest.tools.Framework$$anon$1@17680d39, false, [SuiteSelector])[0m
+[0m[[0mdebug[0m] [0mRunning TaskDef(Import.CsvLineImporterTest, org.scalatest.tools.Framework$$anon$1@17680d39, false, [SuiteSelector])[0m
+[0m[[0mdebug[0m] [0mRunning TaskDef(TeamBuilding.TeamBuildingMasterTest, org.scalatest.tools.Framework$$anon$1@17680d39, false, [SuiteSelector])[0m
+[0m[[0mdebug[0m] [0mRunning TaskDef(Import.MeanCalculator$Test, org.scalatest.tools.Framework$$anon$1@17680d39, false, [SuiteSelector])[0m
+[0m[[0mdebug[0m] [0mRunning TaskDef(TeamBuilding.GenderCombinatorTest, org.scalatest.tools.Framework$$anon$1@17680d39, false, [SuiteSelector])[0m
+[0m[[0mdebug[0m] [0mRunning TaskDef(Import.FileImporter$Test, org.scalatest.tools.Framework$$anon$1@17680d39, false, [SuiteSelector])[0m
+[0m[[0minfo[0m] [0m[36mRun completed in 4 seconds, 368 milliseconds.[0m[0m
+[0m[[0minfo[0m] [0m[36mTotal number of tests run: 21[0m[0m
+[0m[[0minfo[0m] [0m[36mSuites: completed 13, aborted 0[0m[0m
+[0m[[0minfo[0m] [0m[36mTests: succeeded 21, failed 0, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0minfo[0m] [0m[32mAll tests passed.[0m[0m
+[0m[[0mdebug[0m] [0mPassed tests:[0m
+[0m[[0mdebug[0m] [0m	TeamBuilding.TeamBuildingMasterTest[0m
+[0m[[0mdebug[0m] [0m	Import.FileImporter$Test[0m
+[0m[[0mdebug[0m] [0m	Import.ImportScenarioTest[0m
+[0m[[0mdebug[0m] [0m	Import.ImportOptimizerTest[0m
+[0m[[0mdebug[0m] [0m	TeamBuilding.GenderSeparatorTest[0m
+[0m[[0mdebug[0m] [0m	TeamBuilding.NaiveSubTeamBuilderTest[0m
+[0m[[0mdebug[0m] [0m	Import.CsvLineImporterTest[0m
+[0m[[0mdebug[0m] [0m	Import.MeanCalculator$Test[0m
+[0m[[0mdebug[0m] [0m	TeamBuilding.GenderCombinatorTest[0m
+[0m[[0mdebug[0m] [0m	master.UeberActorTest[0m
+[0m[[0mdebug[0m] [0m	TeamBuilding.TeamEvaluatorTest[0m
+[0m[[0mdebug[0m] [0m	Export.CsvFileWriterTest[0m
+[0m[[0mdebug[0m] [0m	Import.PlayerMeanFillerTest[0m

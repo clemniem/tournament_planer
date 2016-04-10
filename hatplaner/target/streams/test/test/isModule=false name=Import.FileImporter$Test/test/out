@@ -1,0 +1,4 @@
+[0m[[0minfo[0m] [0m[32mFileImporter$Test:[0m[0m
+[0m[[0minfo[0m] [0m[32mAn FileImporter[0m[0m
+[0m[[0minfo[0m] [0m[32m- must send one broken line back to the reference given to him[0m[0m
+[0m[[0minfo[0m] [0m[32m- must send all broken lines back to the reference given to him[0m[0m

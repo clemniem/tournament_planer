@@ -1,0 +1,21 @@
+@(title: String)(content: Html)
+
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>@title</title>
+        <link rel="stylesheet" href="@routes.Assets.versioned("stylesheets/main.css")"/>
+    </head>
+    <body>
+        <header>
+            <h1>
+                Hat Tournament Planer
+            </h1>
+        </header>
+        @content
+        <footer>
+            <p>This is the Header of this amazing website</p>
+        </footer>
+    </body>
+</html>

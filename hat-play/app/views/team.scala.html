@@ -1,0 +1,14 @@
+@(teams: String)(imageName: String)(outCsv: String)
+
+@main("Welcome to HatPlaner") {
+        <div class="container">
+            <div class="description"><h2>Teams</h2></div>
+            <div class="fileout">Save your teams: <a href=@outCsv target="_blank">click</a> </div>
+            <div class="box finished-teams">
+                @Html(teams)
+            </div>
+            <div class="box graph">
+                <img src=@imageName alt="graph" height="300" width="600">
+            </div>
+        </div>
+}

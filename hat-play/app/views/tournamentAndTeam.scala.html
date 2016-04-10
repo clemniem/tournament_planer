@@ -1,0 +1,19 @@
+@(teams: String)(tournament: String)(imageName: String)(outTeam: String)(outTournament: String)
+
+@main("Welcome to HatPlaner") {
+    <div class="container">
+        <div class="description"><h2>Teams</h2></div>
+        <div class="fileout">Save your teams: <a href=@outTeam target="_blank">click</a> </div>
+        <div class="box finished-teams">
+            @Html(teams)
+        </div>
+        <div class="description"><h2>Tournament</h2></div>
+        <div class="fileout">Save your tournament: <a href=@outTournament target="_blank">click</a> </div>
+        <div class="box tournament">
+            @Html(tournament)
+        </div>
+        <div class="box graph">
+            <img src=@imageName alt="" height="300" width="600">
+        </div>
+    </div>
+}

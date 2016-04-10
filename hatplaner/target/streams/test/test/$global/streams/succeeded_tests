@@ -1,0 +1,15 @@
+#Successful Tests
+#Fri Feb 26 16:05:01 CET 2016
+Import.ImportScenarioTest=1456499098311
+Import.FileImporter$Test=1456499099197
+TeamBuilding.GenderCombinatorTest=1456499100030
+Import.ImportOptimizerTest=1456499098134
+TeamBuilding.GenderSeparatorTest=1456499098134
+Export.CsvFileWriterTest=1456499098331
+master.UeberActorTest=1456499101266
+Import.MeanCalculator$Test=1456499098718
+TeamBuilding.TeamBuildingMasterTest=1456499101086
+TeamBuilding.TeamEvaluatorTest=1456499098423
+TeamBuilding.NaiveSubTeamBuilderTest=1456499098131
+Import.PlayerMeanFillerTest=1456499098131
+Import.CsvLineImporterTest=1456499098518

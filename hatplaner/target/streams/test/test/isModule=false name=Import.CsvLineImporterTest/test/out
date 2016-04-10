@@ -1,0 +1,6 @@
+[0m[[0minfo[0m] [0m[32mCsvLineImporterTest:[0m[0m
+[0m[[0minfo[0m] [0m[32mA CsvLineImporter[0m[0m
+[0m[[0minfo[0m] [0m[32m- must create a player from a valid line[0m[0m
+[0m[[0minfo[0m] [0m[32m- must send the last message if the input was not valid[0m[0m
+[0m[[0minfo[0m] [0m[32m- must send an error message if the name is empty[0m[0m
+[0m[[0minfo[0m] [0m[32m- must fill missing fields with default 0[0m[0m

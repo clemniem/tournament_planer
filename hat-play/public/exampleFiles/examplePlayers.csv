@@ -1,0 +1,21 @@
+Name,Hometeam,Gender,Experience,Agility,Fitness,Handler-Skills,Receiver-Skills,Wants to play with,Rather would not play with
+Albert SlowGoodThrow,ATeam,m,5,2,6,7,4,Arielle Newbie,Brianna Newbie
+Brian SlowGoodThrow,ATeam,m,4,3,5,8,3,,
+Clarence SlowGoodThrow,FrisBs,m,6,5,4,9,2,,
+Desmond SlowGoodThrow,FrisBs,m,4,4,5,8,3,,
+Anton ExpGoodCatch,ATeam,m,8,5,8,6,9,,
+Bello ExpGoodCatch,ATeam,m,9,6,8,5,8,,
+Armin GoodCatch,FrisBs,m,5,6,6,4,8,,
+Balu GoodCatch,FrisBs,m,4,5,7,3,7,,
+Alina SlowGoodThrow,ATeam,w,4,3,5,8,4,,
+Barbara SlowGoodThrow,FrisBs,w,5,2,6,7,5,,
+Angelica FastGoodThrow,ATeam,w,5,9,7,8,5,,
+Berta FastGoodThrow,FrisBs,w,6,7,6,8,7,,
+Anna ExpGoodCatch,ATeam,w,8,5,8,6,8,,
+Bella ExpGoodCatch,FrisBs,w,9,6,8,5,9,,
+Clarissa ExpGoodCatch,ATeam,w,8,5,8,6,8,,
+Diane ExpGoodCatch,FrisBs,w,9,6,8,6,9,,
+Alisa FastFit,ATeam,w,3,8,9,3,7,,
+Bianca FastFit,ATeam,w,4,9,8,4,8,,
+Arielle Newbie,ATeam,w,2,2,2,2,2,Albert SlowGoodThrow,
+Brianna Newbie,FrisBs,w,3,3,3,3,3,,Albert SlowGoodThrow

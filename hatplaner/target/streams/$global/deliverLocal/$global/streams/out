@@ -1,0 +1,4 @@
+[0m[[0minfo[0m] [0m:: delivering :: hat-planer#hat-planer_2.11;0.1-SNAPSHOT :: 0.1-SNAPSHOT :: integration :: Sat Mar 05 17:46:08 CET 2016[0m
+[0m[[0mdebug[0m] [0m	options = status=integration pubdate=Sat Mar 05 17:46:08 CET 2016 validate=true resolveDynamicRevisions=true merge=true resolveId=null pubBranch=null[0m
+[0m[[0minfo[0m] [0m	delivering ivy file to /home/yannick/workspace/hatplaner/target/scala-2.11/ivy-0.1-SNAPSHOT.xml[0m
+[0m[[0mdebug[0m] [0m	deliver done (59ms)[0m

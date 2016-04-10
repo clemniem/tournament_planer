@@ -1,0 +1,240 @@
+@import helper._
+
+@main("Welcome to HatPlaner") {
+    <div class="container">
+        <div class="box team">
+            <div class="explanation">
+                <h2>Create Teams</h2>
+                <p>Here you can create teams from a playerlist.
+                    You can download an example file <a href="@routes.Assets.versioned("exampleFiles/examplePlayers.csv")">here.</a><br>
+                For optimal result please fill in all the columns for the players. If you are uncertain you can also leave some empty,
+                the computer will fill it with an average value.</p>
+            </div>
+
+            @form(action = routes.InputController.getTeams,'class ->"form teams", 'enctype -> "multipart/form-data") {
+                <div class="input file">
+                    <p>Please chose your .css player file</p>
+                    <input type="file" name="input" required>
+                </div>
+                <div class="input team">
+                    <p>Please specify the number of teams</p>
+                    <input type="number" name="teams" min="2" max="100" required>
+                </div>
+                <div class="input slider">
+                    <p>Adjust influence of experience</p>
+                    <input type="range" name="exp" min="0" max="100" value="50">
+                </div>
+                <div class="input slider">
+                    <p>Adjust influence of agility</p>
+                    <input type="range" name="agi" min="0" max="100" value="50">
+                </div>
+                <div class="input slider">
+                    <p>Adjust influence of fitness</p>
+                    <input type="range" name="fit" min="0" max="100" value="50">
+                </div>
+                <div class="input slider">
+                    <p>Adjust influence of handling skills</p>
+                    <input type="range" name="handling" min="0" max="100" value="50">
+                </div>
+                <div class="input slider">
+                    <p>Adjust influence of receiver skills</p>
+                    <input type="range" name="receiver" min="0" max="100" value="50">
+                </div>
+                <div class="input slider">
+                    <p>Adjust influence of team malus </p>
+                    <input type="range" name="teamMalus" min="0" max="100" value="50">
+                </div>
+                <div class="input slider">
+                    <p>Adjust influence of wishlist</p>
+                    <input type="range" name="wish" min="0" max="100" value="50">
+                </div>
+                <div class="input submit">
+                    <button type="submit">send</button>
+                </div>
+            }
+        </div>
+        <div class="box team-tournament">
+            <div class="explanation">
+                <h2>Create Teams and Tournament</h2>
+                <p>Here you can create teams and tournament from a playerlist.
+                    You can download an example file <a href="@routes.Assets.versioned("exampleFiles/examplePlayers.csv")">here</a></p>
+            </div>
+
+        @form(action = routes.InputController.getTeamsAndTournament, 'class ->"form teams-tournament", 'enctype -> "multipart/form-data") {
+            <div class="input file">
+                <p>Please chose your .css player file</p>
+                <input type="file" name="input" required>
+            </div>
+            <div class="input team">
+                <p>Please specify the number of teams</p>
+                <input type="number" name="teams" min="2" max="100" required>
+            </div>
+            <div class="input start-time">
+                <p>Please chose in, when you want to start in the morning</p>
+                <select name="startTime">
+                    <option value="08:00">08:00</option>
+                    <option value="08:30">08:30</option>
+                    <option value="09:00">09:00</option>
+                    <option value="09:30">09:30</option>
+                    <option value="10:00">10:00</option>
+                    <option value="10:30">10:30</option>
+                    <option value="11:00">11:00</option>
+                    <option value="11:30">11:30</option>
+                    <option value="12:00">12:00</option>
+                    <option value="12:30">12:30</option>
+                </select>
+            </div>
+            <div class="input end-time">
+                <p>Please chose the start of the latest match in the evening</p>
+                <select name="endTime">
+                    <option value="16:00">16:00</option>
+                    <option value="16:30">16:30</option>
+                    <option value="17:00">17:00</option>
+                    <option value="17:30">17:30</option>
+                    <option value="18:00">18:00</option>
+                    <option value="18:30">18:30</option>
+                    <option value="19:00">19:00</option>
+                    <option value="19:30">19:30</option>
+                    <option value="20:00">20:00</option>
+                    <option value="20:30">20:30</option>
+                </select>
+            </div>
+            <div class="input game-time">
+                <p>Please chose the gametime</p>
+                <select name="gameTime">
+                    <option value="15">15 minutes</option>
+                    <option value="20">20 minutes</option>
+                    <option value="25">25 minutes</option>
+                    <option value="30">30 minutes</option>
+                    <option value="35">35 minutes</option>
+                    <option value="40">40 minutes</option>
+                    <option value="45">45 minutes</option>
+                    <option value="50">50 minutes</option>
+                    <option value="55">55 minutes</option>
+                    <option value="60">60 minutes</option>
+                </select>
+            </div>
+            <div class="input pause-time">
+                <p>Please chose the break length</p>
+                <select name="pauseTime">
+                    <option value="5">5 minutes</option>
+                    <option value="10">10 minutes</option>
+                    <option value="15">15 minutes</option>
+                    <option value="20">20 minutes</option>
+                </select>
+            </div>
+            <div class="input fields">
+                <p>Please put in the number of fields</p>
+                <input type="number" name="fields" min="1" max="100" required>
+            </div>
+            <div class="input gamemode">
+                <p>Please chose the gamemode</p>
+                <select name="gameMode">
+                    <option value="0">Round Robin</option>
+                    <option value="1">Elimination</option>
+                    <option value="2">Pool</option>
+                </select>
+            </div>
+            <div class="input days">
+                <p>Please chose the number of days</p>
+                <select name="days">
+                    <option value="1">1</option>
+                </select>
+            </div>
+            <div class="input submit">
+                <button type="submit">send</button>
+            </div>
+            }
+        </div>
+        <div class="box tournamentLoad">
+            <div class="explanation">
+                <h2>Create Tournament</h2>
+                <p>Here you can create a tournament from a teams list.
+                    You can download an example file <a href="@routes.Assets.versioned("exampleFiles/exampleTeams.txt")">here</a>
+                </p>
+            </div>
+
+            @form(action = routes.InputController.tournament,  'class ->"form tournament",'enctype -> "multipart/form-data") {
+                <div class="input file">
+                    <p>Please chose your teams file</p>
+                    <input type="file" name="input" required>
+                </div>
+                <div class="input start-time">
+                    <p>Please chose in, when you want to start in the morning</p>
+                    <select name="startTime">
+                        <option value="08:00">08:00</option>
+                        <option value="08:30">08:30</option>
+                        <option value="09:00">09:00</option>
+                        <option value="09:30">09:30</option>
+                        <option value="10:00">10:00</option>
+                        <option value="10:30">10:30</option>
+                        <option value="11:00">11:00</option>
+                        <option value="11:30">11:30</option>
+                        <option value="12:00">12:00</option>
+                        <option value="12:30">12:30</option>
+                    </select>
+                </div>
+                <div class="input end-time">
+                    <p>Please chose the start of the latest match in the evening</p>
+                    <select name="endTime">
+                        <option value="16:00">16:00</option>
+                        <option value="16:30">16:30</option>
+                        <option value="17:00">17:00</option>
+                        <option value="17:30">17:30</option>
+                        <option value="18:00">18:00</option>
+                        <option value="18:30">18:30</option>
+                        <option value="19:00">19:00</option>
+                        <option value="19:30">19:30</option>
+                        <option value="20:00">20:00</option>
+                        <option value="20:30">20:30</option>
+                    </select>
+                </div>
+                <div class="input game-time">
+                    <p>Please chose the gametime</p>
+                    <select name="gameTime">
+                        <option value="15">15 minutes</option>
+                        <option value="20">20 minutes</option>
+                        <option value="25">25 minutes</option>
+                        <option value="30">30 minutes</option>
+                        <option value="35">35 minutes</option>
+                        <option value="40">40 minutes</option>
+                        <option value="45">45 minutes</option>
+                        <option value="50">50 minutes</option>
+                        <option value="55">55 minutes</option>
+                        <option value="60">60 minutes</option>
+                    </select>
+                </div>
+                <div class="input pause-time">
+                    <p>Please chose the break length</p>
+                    <select name="pauseTime">
+                        <option value="5">5 minutes</option>
+                        <option value="10">10 minutes</option>
+                        <option value="15">15 minutes</option>
+                        <option value="20">20 minutes</option>
+                    </select>
+                </div>
+                <div class="input fields">
+                    <p>Please put in the number of fields</p>
+                    <input type="number" name="fields" min="1" max="100" required>
+                </div>
+                <div class="input gamemode">
+                    <p>Please chose the gamemode</p>
+                    <select name="gameMode">
+                        <option value="0">Round Robin</option>
+                        <option value="1">Elimination</option>
+                        <option value="2">Pool</option>
+                    </select>
+                </div>
+                <div class="input days">
+                    <p>Please chose the number of days</p>
+                    <select name="days">
+                        <option value="1">1</option>
+                    </select>
+                </div>
+                <div class="input submit">
+                    <button type="submit">send</button>
+                </div>
+            }
+        </div>
+    </div>
+}

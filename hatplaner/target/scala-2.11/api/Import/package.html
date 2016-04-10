@@ -1,0 +1,411 @@
+<!DOCTYPE html >
+<html>
+        <head>
+          <title>Import - Import</title>
+          <meta name="description" content="Import - Import" />
+          <meta name="keywords" content="Import Import" />
+          <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+          
+      <link href="../lib/template.css" media="screen" type="text/css" rel="stylesheet" />
+      <link href="../lib/diagrams.css" media="screen" type="text/css" rel="stylesheet" id="diagrams-css" />
+      <script type="text/javascript" src="../lib/jquery.js" id="jquery-js"></script>
+      <script type="text/javascript" src="../lib/jquery-ui.js"></script>
+      <script type="text/javascript" src="../lib/template.js"></script>
+      <script type="text/javascript" src="../lib/tools.tooltip.js"></script>
+      
+      <script type="text/javascript">
+         if(top === self) {
+            var url = '../index.html';
+            var hash = 'Import.package';
+            var anchor = window.location.hash;
+            var anchor_opt = '';
+            if (anchor.length >= 1)
+              anchor_opt = '@' + anchor.substring(1);
+            window.location.href = url + '#' + hash + anchor_opt;
+         }
+   	  </script>
+    
+        </head>
+        <body class="value">
+      <div id="definition">
+        <img alt="Package" src="../lib/package_big.png" />
+        
+        <h1>Import</h1><span class="permalink">
+      <a href="../index.html#Import.package" title="Permalink" target="_top">
+        <img src="../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      </div>
+
+      <h4 id="signature" class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">package</span>
+      </span>
+      <span class="symbol">
+        <span class="name">Import</span>
+      </span>
+      </h4>
+      
+          <div id="comment" class="fullcommenttop"></div>
+        
+
+      <div id="mbrsel">
+        <div id="textfilter"><span class="pre"></span><span class="input"><input id="mbrsel-input" type="text" accesskey="/" /></span><span class="post"></span></div>
+        
+        
+        <div id="visbl">
+            <span class="filtertype">Visibility</span>
+            <ol><li class="public in"><span>Public</span></li><li class="all out"><span>All</span></li></ol>
+          </div>
+      </div>
+
+      <div id="template">
+        <div id="allMembers">
+        
+
+        <div id="types" class="types members">
+              <h3>Type Members</h3>
+              <ol><li name="Import.Conditions" visbl="pub" data-isabs="true" fullComment="no" group="Ungrouped">
+      <a id="ConditionsextendsAnyRef"></a>
+      <a id="Conditions:Conditions"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">trait</span>
+      </span>
+      <span class="symbol">
+        <a href="Conditions.html"><span class="name">Conditions</span></a><span class="result"> extends <span class="extype" name="scala.AnyRef">AnyRef</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../index.html#Import.package@ConditionsextendsAnyRef" title="Permalink" target="_top">
+        <img src="../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Created by yannick on 15.02.16.</p>
+    </li><li name="Import.FinalPlayer" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="FinalPlayerextendsProductwithSerializable"></a>
+      <a id="FinalPlayer:FinalPlayer"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="FinalPlayer.html"><span class="name">FinalPlayer</span></a><span class="params">(<span name="name">name: <span class="extype" name="scala.Predef.String">String</span></span>, <span name="team">team: <span class="extype" name="scala.Predef.String">String</span></span>, <span name="gender">gender: <a href="Gender.html" class="extype" name="Import.Gender">Gender</a></span>, <span name="values">values: <a href="Types$.html#ValueVector=Vector[Int]" class="extmbr" name="Import.Types.ValueVector">ValueVector</a></span>, <span name="finalStrength">finalStrength: <a href="Types$.html#Strength=Int" class="extmbr" name="Import.Types.Strength">Strength</a></span>, <span name="wishes">wishes: <span class="extype" name="scala.List">List</span>[<a href="Wish.html" class="extype" name="Import.Wish">Wish</a>]</span>)</span><span class="result"> extends <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../index.html#Import.package@FinalPlayerextendsProductwithSerializable" title="Permalink" target="_top">
+        <img src="../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="Import.Gender" visbl="pub" data-isabs="true" fullComment="no" group="Ungrouped">
+      <a id="GenderextendsAnyRef"></a>
+      <a id="Gender:Gender"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">sealed </span>
+        <span class="kind">trait</span>
+      </span>
+      <span class="symbol">
+        <a href="Gender.html"><span class="name">Gender</span></a><span class="result"> extends <span class="extype" name="scala.AnyRef">AnyRef</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../index.html#Import.package@GenderextendsAnyRef" title="Permalink" target="_top">
+        <img src="../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="Import.ImportManager" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="ImportManagerextendsActor"></a>
+      <a id="ImportManager:ImportManager"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="ImportManager.html"><span class="name">ImportManager</span></a><span class="result"> extends <span class="extype" name="akka.actor.Actor">Actor</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../index.html#Import.package@ImportManagerextendsActor" title="Permalink" target="_top">
+        <img src="../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="Import.Player" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="PlayerextendsProductwithSerializable"></a>
+      <a id="Player:Player"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="Player.html"><span class="name">Player</span></a><span class="params">(<span name="name">name: <span class="extype" name="scala.Predef.String">String</span></span>, <span name="team">team: <span class="extype" name="scala.Predef.String">String</span></span>, <span name="gender">gender: <a href="Gender.html" class="extype" name="Import.Gender">Gender</a></span>, <span name="values">values: <a href="Types$.html#ValueVector=Vector[Int]" class="extmbr" name="Import.Types.ValueVector">ValueVector</a></span>, <span name="posWish">posWish: <span class="extype" name="scala.Predef.String">String</span></span>, <span name="negWish">negWish: <span class="extype" name="scala.Predef.String">String</span></span>)</span><span class="result"> extends <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../index.html#Import.package@PlayerextendsProductwithSerializable" title="Permalink" target="_top">
+        <img src="../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">needed Datatypes
+</p>
+    </li><li name="Import.PlayerListWithWeightVector" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="PlayerListWithWeightVectorextendsProductwithSerializable"></a>
+      <a id="PlayerListWithWeightVector:PlayerListWithWeightVector"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="PlayerListWithWeightVector.html"><span class="name">PlayerListWithWeightVector</span></a><span class="params">(<span name="playerList">playerList: <a href="FileImport/FileImporter$$PlayerList.html" class="extype" name="Import.FileImport.FileImporter.PlayerList">PlayerList</a></span>, <span name="weightVector">weightVector: <span class="extype" name="scala.Vector">Vector</span>[<span class="extype" name="scala.Int">Int</span>]</span>)</span><span class="result"> extends <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../index.html#Import.package@PlayerListWithWeightVectorextendsProductwithSerializable" title="Permalink" target="_top">
+        <img src="../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="Import.Routing" visbl="pub" data-isabs="true" fullComment="no" group="Ungrouped">
+      <a id="RoutingextendsAnyRef"></a>
+      <a id="Routing:Routing"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">trait</span>
+      </span>
+      <span class="symbol">
+        <a href="Routing.html"><span class="name">Routing</span></a><span class="result"> extends <span class="extype" name="scala.AnyRef">AnyRef</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../index.html#Import.package@RoutingextendsAnyRef" title="Permalink" target="_top">
+        <img src="../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Created by yannick on 14.02.16.</p>
+    </li><li name="Import.Team" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="TeamextendsProductwithSerializable"></a>
+      <a id="Team:Team"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="Team.html"><span class="name">Team</span></a><span class="params">(<span name="teamMeanStrength">teamMeanStrength: <a href="Types$.html#Strength=Int" class="extmbr" name="Import.Types.Strength">Strength</a></span>, <span name="players">players: <span class="extype" name="scala.List">List</span>[<a href="FinalPlayer.html" class="extype" name="Import.FinalPlayer">FinalPlayer</a>]</span>)</span><span class="result"> extends <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../index.html#Import.package@TeamextendsProductwithSerializable" title="Permalink" target="_top">
+        <img src="../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="Import.TeamsLines" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="TeamsLinesextendsAnyRef"></a>
+      <a id="TeamsLines:TeamsLines"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="TeamsLines.html"><span class="name">TeamsLines</span></a><span class="result"> extends <span class="extype" name="scala.AnyRef">AnyRef</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../index.html#Import.package@TeamsLinesextendsAnyRef" title="Permalink" target="_top">
+        <img src="../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="Import.Wish" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="WishextendsProductwithSerializable"></a>
+      <a id="Wish:Wish"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="Wish.html"><span class="name">Wish</span></a><span class="params">(<span name="wisher">wisher: <span class="extype" name="scala.Predef.String">String</span></span>, <span name="wished">wished: <span class="extype" name="scala.Predef.String">String</span></span>, <span name="bonus">bonus: <span class="extype" name="scala.Int">Int</span></span>)</span><span class="result"> extends <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../index.html#Import.package@WishextendsProductwithSerializable" title="Permalink" target="_top">
+        <img src="../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li></ol>
+            </div>
+
+        
+
+        <div id="values" class="values members">
+              <h3>Value Members</h3>
+              <ol><li name="Import.Attributes" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="Attributes"></a>
+      <a id="Attributes:Attributes"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="Attributes$.html"><span class="name">Attributes</span></a>
+      </span>
+      </h4><span class="permalink">
+      <a href="../index.html#Import.package@Attributes" title="Permalink" target="_top">
+        <img src="../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="Import.Caster" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="Caster"></a>
+      <a id="Caster:Caster"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="Caster$.html"><span class="name">Caster</span></a>
+      </span>
+      </h4><span class="permalink">
+      <a href="../index.html#Import.package@Caster" title="Permalink" target="_top">
+        <img src="../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="Import.Female" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="Female"></a>
+      <a id="Female:Female"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="Female$.html"><span class="name">Female</span></a><span class="result"> extends <a href="Gender.html" class="extype" name="Import.Gender">Gender</a> with <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../index.html#Import.package@Female" title="Permalink" target="_top">
+        <img src="../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="Import.FileImport" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="FileImport"></a>
+      <a id="FileImport:FileImport"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">package</span>
+      </span>
+      <span class="symbol">
+        <a href="FileImport/package.html"><span class="name">FileImport</span></a>
+      </span>
+      </h4><span class="permalink">
+      <a href="../index.html#Import.package@FileImport" title="Permalink" target="_top">
+        <img src="../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="Import.ImportManager" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="ImportManager"></a>
+      <a id="ImportManager:ImportManager"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="ImportManager$.html"><span class="name">ImportManager</span></a>
+      </span>
+      </h4><span class="permalink">
+      <a href="../index.html#Import.package@ImportManager" title="Permalink" target="_top">
+        <img src="../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Created by yannick on 13.02.16.</p>
+    </li><li name="Import.ImportOptimizer" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="ImportOptimizer"></a>
+      <a id="ImportOptimizer:ImportOptimizer"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">package</span>
+      </span>
+      <span class="symbol">
+        <a href="ImportOptimizer/package.html"><span class="name">ImportOptimizer</span></a>
+      </span>
+      </h4><span class="permalink">
+      <a href="../index.html#Import.package@ImportOptimizer" title="Permalink" target="_top">
+        <img src="../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="Import.Male" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="Male"></a>
+      <a id="Male:Male"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="Male$.html"><span class="name">Male</span></a><span class="result"> extends <a href="Gender.html" class="extype" name="Import.Gender">Gender</a> with <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../index.html#Import.package@Male" title="Permalink" target="_top">
+        <img src="../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="Import.Types" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="Types"></a>
+      <a id="Types:Types"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="Types$.html"><span class="name">Types</span></a>
+      </span>
+      </h4><span class="permalink">
+      <a href="../index.html#Import.package@Types" title="Permalink" target="_top">
+        <img src="../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li></ol>
+            </div>
+
+        
+
+        
+        </div>
+
+        <div id="inheritedMembers">
+        
+        
+        </div>
+
+        <div id="groupedMembers">
+        <div class="group" name="Ungrouped">
+              <h3>Ungrouped</h3>
+              
+            </div>
+        </div>
+
+      </div>
+
+      <div id="tooltip"></div>
+
+      <div id="footer">  </div>
+
+
+    </body>
+      </html>

@@ -1,0 +1,83 @@
+[0m[[0mdebug[0m] [0mExecuting Native docker build --force-rm -t hat-planer:0.1-SNAPSHOT .[0m
+[0m[[0mdebug[0m] [0mWorking directory /home/yannick/workspace/hat/hatplaner/target/docker/stage[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon 557.1 kB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon 1.114 MB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon 1.671 MB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon 2.228 MB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon 2.785 MB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon 3.342 MB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon 3.899 MB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon 4.456 MB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon 5.014 MB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon 5.571 MB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon 6.128 MB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon 6.685 MB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon 7.242 MB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon 7.799 MB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon 8.356 MB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon 8.913 MB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon  9.47 MB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon 10.03 MB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon 10.58 MB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon 11.14 MB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon  11.7 MB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon 12.26 MB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon 12.81 MB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon 13.37 MB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon 13.93 MB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon 14.48 MB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon 15.04 MB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon  15.6 MB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon 16.15 MB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon 16.71 MB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon 17.27 MB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon 17.83 MB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon 18.38 MB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon 18.94 MB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon  19.5 MB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon 20.05 MB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon 20.61 MB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon 21.17 MB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon 21.73 MB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon 22.28 MB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon 22.84 MB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon  23.4 MB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon 23.95 MB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon 24.51 MB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon 25.07 MB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon 25.62 MB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon 26.18 MB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon 26.74 MB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon  27.3 MB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon 27.85 MB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon 28.41 MB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon 28.97 MB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon 29.52 MB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon 30.08 MB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon 30.36 MB[0m
+[0m[[0minfo[0m] [0mStep 1 : FROM java:latest[0m
+[0m[[0minfo[0m] [0m ---> ff5c45ff5450[0m
+[0m[[0minfo[0m] [0mStep 2 : WORKDIR /opt/docker[0m
+[0m[[0minfo[0m] [0m ---> Using cache[0m
+[0m[[0minfo[0m] [0m ---> 7e6bc8f28801[0m
+[0m[[0minfo[0m] [0mStep 3 : ADD opt /opt[0m
+[0m[[0minfo[0m] [0m ---> f64389615962[0m
+[0m[[0minfo[0m] [0mRemoving intermediate container c72b123012b6[0m
+[0m[[0minfo[0m] [0mStep 4 : RUN chown -R daemon:daemon .[0m
+[0m[[0minfo[0m] [0m ---> Running in 0c6caeec2b2b[0m
+[0m[[0minfo[0m] [0m ---> 695665584f2f[0m
+[0m[[0minfo[0m] [0mRemoving intermediate container 0c6caeec2b2b[0m
+[0m[[0minfo[0m] [0mStep 5 : USER daemon[0m
+[0m[[0minfo[0m] [0m ---> Running in ac71ec5f39cc[0m
+[0m[[0minfo[0m] [0m ---> 310dbfae6e41[0m
+[0m[[0minfo[0m] [0mRemoving intermediate container ac71ec5f39cc[0m
+[0m[[0minfo[0m] [0mStep 6 : ENTRYPOINT bin/hat-planer[0m
+[0m[[0minfo[0m] [0m ---> Running in 4fc6e12feaa1[0m
+[0m[[0minfo[0m] [0m ---> 1e96fdfea1c2[0m
+[0m[[0minfo[0m] [0mRemoving intermediate container 4fc6e12feaa1[0m
+[0m[[0minfo[0m] [0mStep 7 : CMD [0m
+[0m[[0minfo[0m] [0m ---> Running in 9dc40b9b967c[0m
+[0m[[0minfo[0m] [0m ---> 2f9332d8bd10[0m
+[0m[[0minfo[0m] [0mRemoving intermediate container 9dc40b9b967c[0m
+[0m[[0minfo[0m] [0mSuccessfully built 2f9332d8bd10[0m
+[0m[[0minfo[0m] [0mBuilt image hat-planer:0.1-SNAPSHOT[0m

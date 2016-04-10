@@ -1,0 +1,8 @@
+# Created by .ignore support plugin (hsz.mobi)
+.idea
+.sbtserver
+dataOutput
+logs
+target
+project/target
+project/project
